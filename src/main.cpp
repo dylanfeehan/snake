@@ -12,7 +12,7 @@ int main() {
             if(event.type == sf::Event::Closed) {
                 window.close();
             }
-            else if(event.key.code == sf::Keyboard::Escape) {
+            if(event.key.code == sf::Keyboard::Escape) {
                 window.close();
             }
         }
